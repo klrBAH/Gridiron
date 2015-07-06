@@ -1,5 +1,7 @@
+body {
+  background-color: #3B3B3B;
+}
 div.main {
-  height:100%;
   width: 100%;
 }
 div.title-head {
@@ -29,15 +31,15 @@ div.lower-dock {
   display: flex;
 }
 div.main-body {
-  background-color: #3B3B3B;
   z-index:1;
   width: 100%;
+  color: white;
 }
 div.dock-icon {
   padding: 7px;
 }
 img.dock-icon {
-  max-width: 40px;
+  max-width: 100%;
 }
 img.topic-icon {
   max-height: 300px;
@@ -47,13 +49,7 @@ div.main-content {
   width: 60%;
   top: 120px;
   padding-top: 30px;
-    background-color: #3B3B3B;
 }
 div.topic-container {
   padding-bottom: 180px;
-  height:auto;
-}
-
-body {
-  background-color: #3B3B3B;
 }
