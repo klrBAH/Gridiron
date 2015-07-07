@@ -37,6 +37,46 @@ $(function () {
       } else {
         g2AnimationHide();
       }
+      if ($(this).scrollTop() >= 3412) {
+        g3AnimationShow();
+      } else {
+        g3AnimationHide();
+      }
+      if ($(this).scrollTop() >= 4220) {
+        g4AnimationShow();
+      } else {
+        g4AnimationHide();
+      }
+      if ($(this).scrollTop() >= 4916) {
+        g5AnimationShow();
+      } else {
+        g5AnimationHide();
+      }
+      if ($(this).scrollTop() >= 5680) {
+        g6AnimationShow();
+      } else {
+        g6AnimationHide();
+      }
+      if ($(this).scrollTop() >= 6428) {
+        g7AnimationShow();
+      } else {
+        g7AnimationHide();
+      }
+      if ($(this).scrollTop() >= 7184) {
+        eVAnimationShow();
+      } else {
+        eVAnimationHide();
+      }
+      if ($(this).scrollTop() >= 7184) {
+        eVAnimationShow();
+      } else {
+        eVAnimationHide();
+      }
+      if ($(this).scrollTop() >= 7228) {
+        iNAnimationShow();
+      } else {
+        iNAnimationHide();
+      }
     }
     //Create varibles for the specific div height
     /*var dO = $('#topic-DO').height();
@@ -123,10 +163,59 @@ var g2AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G2").hide();
   $(".upper-dock").children().find("#upper-icon-G2").show();
 }
-var g3 = $('#topic-G3').height();
-var g4 = $('#topic-G4').height();
-var g5 = $('#topic-G5').height();
-var g6 = $('#topic-G6').height();
-var g7 = $('#topic-G7').height();
-var eV = $('#topic-Ev').height();
-var iN = $('#topic-In').height();
+var g3AnimationShow = function () {
+  $(".lower-dock").children().find("#upper-icon-G3").show();
+  $(".upper-dock").children().find("#upper-icon-G3").hide();
+}
+var g3AnimationHide = function () {
+  $(".lower-dock").children().find("#upper-icon-G3").hide();
+  $(".upper-dock").children().find("#upper-icon-G3").show();
+}
+var g4AnimationShow = function () {
+  $(".lower-dock").children().find("#upper-icon-G4").show();
+  $(".upper-dock").children().find("#upper-icon-G4").hide();
+}
+var g4AnimationHide = function () {
+  $(".lower-dock").children().find("#upper-icon-G4").hide();
+  $(".upper-dock").children().find("#upper-icon-G4").show();
+}
+var g5AnimationShow = function () {
+  $(".lower-dock").children().find("#upper-icon-G5").show();
+  $(".upper-dock").children().find("#upper-icon-G5").hide();
+}
+var g5AnimationHide = function () {
+  $(".lower-dock").children().find("#upper-icon-G5").hide();
+  $(".upper-dock").children().find("#upper-icon-G5").show();
+}
+var g6AnimationShow = function () {
+  $(".lower-dock").children().find("#upper-icon-G6").show();
+  $(".upper-dock").children().find("#upper-icon-G6").hide();
+}
+var g6AnimationHide = function () {
+  $(".lower-dock").children().find("#upper-icon-G6").hide();
+  $(".upper-dock").children().find("#upper-icon-G6").show();
+}
+var g7AnimationShow = function () {
+  $(".lower-dock").children().find("#upper-icon-G7").show();
+  $(".upper-dock").children().find("#upper-icon-G7").hide();
+}
+var g7AnimationHide = function () {
+  $(".lower-dock").children().find("#upper-icon-G7").hide();
+  $(".upper-dock").children().find("#upper-icon-G7").show();
+}
+var eVAnimationShow = function () {
+  $(".lower-dock").children().find("#upper-icon-Ev").show();
+  $(".upper-dock").children().find("#upper-icon-Ev").hide();
+}
+var eVAnimationHide = function () {
+  $(".lower-dock").children().find("#upper-icon-Ev").hide();
+  $(".upper-dock").children().find("#upper-icon-Ev").show();
+}
+var iNAnimationShow = function () {
+  $(".lower-dock").children().find("#upper-icon-In").show();
+  $(".upper-dock").children().find("#upper-icon-In").hide();
+}
+var iNAnimationHide = function () {
+  $(".lower-dock").children().find("#upper-icon-In").hide();
+  $(".upper-dock").children().find("#upper-icon-In").show();
+}
