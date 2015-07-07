@@ -18,7 +18,7 @@ div.title-head {
 div.dock {
   position: fixed;
   width: 100%;
-  z-index: 100;
+  z-index: 99;
 }
 div.upper-dock {
   top: 50px;
@@ -81,4 +81,45 @@ h2.topic-title {
 }
 div.topic-text {
   padding: 5px;
+}
+
+div.BAH-brand {
+  float: left;
+}
+div.gridiron-brand {
+  float: right;
+}
+div.title-branding {
+  float: left;
+  width: 80%;
+  padding: 10px;
+}
+div.nav-menu {
+  float: right;
+}
+ul.dropdown-menu {
+  z-index: 101;
+}
+
+.navbar-toggle {
+  display: block;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+  margin: 0px;
+}
+
+.navbar-toggle {
+  margin: 0px;
+}
+
+.navbar {
+  min-height: 20px;
+}
+.menu-item-l2 {
+  margin-left: 4px;
+}
+li.menu-item-l1 > a {
+  font-weight: bold;
 }

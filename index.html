@@ -3,29 +3,65 @@
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/gridiron.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
 </head>
 
 <body>
   <div class="main">
     <div class="title-head">
-      Booz | Allen | Hamilton
+      <div class="title-branding">
+        <div class="BAH-brand">
+          Booz | Allen | Hamilton
+        </div>
+        <div class="gridiron-brand">
+          DevOps Gridiron
+        </div>
+      </div>
+      <div class="nav-menu">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle navbar-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li class="menu-item menu-item-l1"><a href="#">What is DevOps?</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="menu-item menu-item-l1"><a href="#">DevOps on the Gridiron</a></li>
+              <li class="menu-item menu-item-l2"><a href="#">Gridiron Topic 1</a></li>
+              <li class="menu-item menu-item-l2"><a href="#">Gridiron Topic 2</a></li>
+              <li class="menu-item menu-item-l2"><a href="#">Gridiron Topic 3</a></li>
+              <li class="menu-item menu-item-l2"><a href="#">Gridiron Topic 4</a></li>
+              <li class="menu-item menu-item-l2"><a href="#">Gridiron Topic 5</a></li>
+              <li class="menu-item menu-item-l2"><a href="#">Gridiron Topic 6</a></li>
+              <li class="menu-item menu-item-l2"><a href="#">Gridiron Topic 7</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="menu-item menu-item-l1"><a href="#">Events</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="menu-item menu-item-l1"><a href="#">Get More Info</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
     <div class="dock upper-dock">
       <div class="dock-icon-container">
-        <div class="upper-icon dock-icon" id="upper-icon-DO"><img class="dock-icon" src="images/dock-icons/gridiron-DO_sm.png"></div>
-        <div class="upper-icon dock-icon" id="upper-icon-Gr"><img class="dock-icon" src="images/dock-icons/gridiron-Gr_sm.png"></div>
-        <div class="upper-icon dock-icon" id="upper-icon-G1"><img class="dock-icon" src="images/dock-icons/gridiron-G1_sm.png"></div>
-        <div class="upper-icon dock-icon" id="upper-icon-G2"><img class="dock-icon" src="images/dock-icons/gridiron-G2_sm.png"></div>
-        <div class="upper-icon dock-icon" id="upper-icon-G3"><img class="dock-icon" src="images/dock-icons/gridiron-G3_sm.png"></div>
-        <div class="upper-icon dock-icon" id="upper-icon-G4"><img class="dock-icon" src="images/dock-icons/gridiron-G4_sm.png"></div>
-        <div class="upper-icon dock-icon" id="upper-icon-G5"><img class="dock-icon" src="images/dock-icons/gridiron-G5_sm.png"></div>
-        <div class="upper-icon dock-icon" id="upper-icon-G6"><img class="dock-icon" src="images/dock-icons/gridiron-G6_sm.png"></div>
-        <div class="upper-icon dock-icon" id="upper-icon-G7"><img class="dock-icon" src="images/dock-icons/gridiron-G7_sm.png"></div>
-        <div class="upper-icon dock-icon" id="upper-icon-Ev"><img class="dock-icon" src="images/dock-icons/gridiron-Ev_sm.png"></div>
-        <div class="upper-icon dock-icon" id="upper-icon-In"><img class="dock-icon" src="images/dock-icons/gridiron-In_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="DO" id="upper-icon-DO"><img class="dock-icon" src="images/dock-icons/gridiron-DO_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="Gr" id="upper-icon-Gr"><img class="dock-icon" src="images/dock-icons/gridiron-Gr_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="G1" id="upper-icon-G1"><img class="dock-icon" src="images/dock-icons/gridiron-G1_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="G2" id="upper-icon-G2"><img class="dock-icon" src="images/dock-icons/gridiron-G2_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="G3" id="upper-icon-G3"><img class="dock-icon" src="images/dock-icons/gridiron-G3_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="G4" id="upper-icon-G4"><img class="dock-icon" src="images/dock-icons/gridiron-G4_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="G5" id="upper-icon-G5"><img class="dock-icon" src="images/dock-icons/gridiron-G5_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="G6" id="upper-icon-G6"><img class="dock-icon" src="images/dock-icons/gridiron-G6_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="G7" id="upper-icon-G7"><img class="dock-icon" src="images/dock-icons/gridiron-G7_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="Ev" id="upper-icon-Ev"><img class="dock-icon" src="images/dock-icons/gridiron-Ev_sm.png"></div>
+        <div class="upper-icon dock-icon" data-topic="In" id="upper-icon-In"><img class="dock-icon" src="images/dock-icons/gridiron-In_sm.png"></div>
       </div>
     </div>
     <div class="main-content center-block text-center">
@@ -152,19 +188,19 @@
       </div>
     </div>
     <div class="dock lower-dock">
-        <div class="dock-icon-container">
-          <div class="lower-icon dock-icon" id="upper-icon-DO"><img class="dock-icon" src="images/dock-icons/gridiron-DO_sm.png"></div>
-          <div class="lower-icon dock-icon" id="upper-icon-Gr"><img class="dock-icon" src="images/dock-icons/gridiron-Gr_sm.png"></div>
-          <div class="lower-icon dock-icon" id="upper-icon-G1"><img class="dock-icon" src="images/dock-icons/gridiron-G1_sm.png"></div>
-          <div class="lower-icon dock-icon" id="upper-icon-G2"><img class="dock-icon" src="images/dock-icons/gridiron-G2_sm.png"></div>
-          <div class="lower-icon dock-icon" id="upper-icon-G3"><img class="dock-icon" src="images/dock-icons/gridiron-G3_sm.png"></div>
-          <div class="lower-icon dock-icon" id="upper-icon-G4"><img class="dock-icon" src="images/dock-icons/gridiron-G4_sm.png"></div>
-          <div class="lower-icon dock-icon" id="upper-icon-G5"><img class="dock-icon" src="images/dock-icons/gridiron-G5_sm.png"></div>
-          <div class="lower-icon dock-icon" id="upper-icon-G6"><img class="dock-icon" src="images/dock-icons/gridiron-G6_sm.png"></div>
-          <div class="lower-icon dock-icon" id="upper-icon-G7"><img class="dock-icon" src="images/dock-icons/gridiron-G7_sm.png"></div>
-          <div class="lower-icon dock-icon" id="upper-icon-Ev"><img class="dock-icon" src="images/dock-icons/gridiron-Ev_sm.png"></div>
-          <div class="lower-icon dock-icon" id="upper-icon-In"><img class="dock-icon" src="images/dock-icons/gridiron-In_sm.png"></div>
-        </div>
+      <div class="dock-icon-container">
+        <div class="lower-icon dock-icon" data-topic="DO" id="lower-icon-DO"><img class="dock-icon" src="images/dock-icons/gridiron-DO_sm.png"></div>
+        <div class="lower-icon dock-icon" data-topic="Gr" id="lower-icon-Gr"><img class="dock-icon" src="images/dock-icons/gridiron-Gr_sm.png"></div>
+        <div class="lower-icon dock-icon" data-topic="G1" id="lower-icon-G1"><img class="dock-icon" src="images/dock-icons/gridiron-G1_sm.png"></div>
+        <div class="lower-icon dock-icon" data-topic="G2" id="lower-icon-G2"><img class="dock-icon" src="images/dock-icons/gridiron-G2_sm.png"></div>
+        <div class="lower-icon dock-icon" data-topic="G3" id="lower-icon-G3"><img class="dock-icon" src="images/dock-icons/gridiron-G3_sm.png"></div>
+        <div class="lower-icon dock-icon" data-topic="G4" id="lower-icon-G4"><img class="dock-icon" src="images/dock-icons/gridiron-G4_sm.png"></div>
+        <div class="lower-icon dock-icon" data-topic="G5" id="lower-icon-G5"><img class="dock-icon" src="images/dock-icons/gridiron-G5_sm.png"></div>
+        <div class="lower-icon dock-icon" data-topic="G6" id="lower-icon-G6"><img class="dock-icon" src="images/dock-icons/gridiron-G6_sm.png"></div>
+        <div class="lower-icon dock-icon" data-topic="G7" id="lower-icon-G7"><img class="dock-icon" src="images/dock-icons/gridiron-G7_sm.png"></div>
+        <div class="lower-icon dock-icon" data-topic="Ev" id="lower-icon-Ev"><img class="dock-icon" src="images/dock-icons/gridiron-Ev_sm.png"></div>
+        <div class="lower-icon dock-icon" data-topic="In" id="lower-icon-In"><img class="dock-icon" src="images/dock-icons/gridiron-In_sm.png"></div>
+      </div>
         <div></div>
       </div>
   </div>
