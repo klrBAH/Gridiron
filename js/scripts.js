@@ -32,6 +32,11 @@ $(function () {
       } else {
         g1AnimationHide();
       }
+      if ($(this).scrollTop() >= 2648) {
+        g2AnimationShow();
+      } else {
+        g2AnimationHide();
+      }
     }
     //Create varibles for the specific div height
     /*var dO = $('#topic-DO').height();
@@ -110,7 +115,14 @@ var g1AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G1").hide();
   $(".upper-dock").children().find("#upper-icon-G1").show();
 }
-var g2 = $('#topic-G2').height();
+var g2AnimationShow = function () {
+  $(".lower-dock").children().find("#upper-icon-G2").show();
+  $(".upper-dock").children().find("#upper-icon-G2").hide();
+}
+var g2AnimationHide = function () {
+  $(".lower-dock").children().find("#upper-icon-G2").hide();
+  $(".upper-dock").children().find("#upper-icon-G2").show();
+}
 var g3 = $('#topic-G3').height();
 var g4 = $('#topic-G4').height();
 var g5 = $('#topic-G5').height();
