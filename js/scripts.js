@@ -15,7 +15,7 @@ $(function () {
     var windowHeight = $(this).height();
     var windowScrollTop = $(this).scrollTop();
 
-    //First Animation
+    //Scroll Animation
     if ($(windowWidth <= 549)) {
       if ($(this).scrollTop() >= 436) {
         dOAnimationShow();
@@ -78,56 +78,8 @@ $(function () {
         iNAnimationHide();
       }
     }
-    //Create varibles for the specific div height
-    /*var dO = $('#topic-DO').height();
-    var gR = $('#topic-Gr').height();
-    var g1 = $('#topic-G1').height();
-    var g2 = $('#topic-G2').height();
-    var g3 = $('#topic-G3').height();
-    var g4 = $('#topic-G4').height();
-    var g5 = $('#topic-G5').height();
-    var g6 = $('#topic-G6').height();
-    var g7 = $('#topic-G7').height();
-    var eV = $('#topic-Ev').height();
-    var iN = $('#topic-In').height();
 
-    //Create if else statements for all of the scroll conditions
-
-    function testScroll(ev) {
-
-      if (window.pageYOffset > 400) alert('User has scrolled at least 400 px!');
-    }
-
-    window.onscroll = testScroll
-      /*scrollShowHide(dO, "DO");
-      scrollShowHide(gR, "Gr");
-      scrollShowHide(g1, "G1");
-      scrollShowHide(g2, "G2");
-      scrollShowHide(g3, "G3");
-      scrollShowHide(g4, "G4");
-      scrollShowHide(g5, "G5");
-      scrollShowHide(g6, "G6");
-      scrollShowHide(g7, "G7");
-      scrollShowHide(eV, "Ev");
-      scrollShowHide(iN, "In");*/
-
-    //    if ($(this).scrollTop() >= dO) {
-    //      $(".lower-dock").children().find("#upper-icon-DO").show();
-    //      $(".upper-dock").children().find("#upper-icon-DO").hide();
-    //    } else if ($(this).scrollTop() <= dO) {
-    //      $(".lower-dock").children().find("#upper-icon-DO").hide();
-    //      $(".upper-dock").children().find("#upper-icon-DO").show();
-    //    }
-    //
-    //    if ($(this).scrollTop() >= dO) {
-    //      $(".lower-dock").children().find("#upper-icon-DO").show();
-    //      $(".upper-dock").children().find("#upper-icon-DO").hide();
-    //    } else if ($(this).scrollTop() <= dO) {
-    //      $(".lower-dock").children().find("#upper-icon-DO").hide();
-    //      $(".upper-dock").children().find("#upper-icon-DO").show();
-    //    }*/
-
-
+    //Fade related icons in and out on scroll
   });
 });
 
