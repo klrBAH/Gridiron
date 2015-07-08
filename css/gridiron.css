@@ -19,6 +19,7 @@ div.dock {
   position: fixed;
   width: 100%;
   z-index: 99;
+  height: 70px;
 }
 div.upper-dock {
   top: 50px;
@@ -34,8 +35,8 @@ div.dock-icon-container {
   min-width: 60%;
 }
 div.dock-icon {
-  padding: 7px;
-  width: 5%;
+  padding: 4px;
+  width: 6%;
   max-width: 100px;
   float: left;
 }
