@@ -22,11 +22,11 @@ div.dock {
 }
 div.upper-dock {
   top: 50px;
-  background-color: red;
+  background-color: black;
 }
 div.lower-dock {
   bottom: 0px;
-  background-color: blue;
+  background-color: white;
 }
 
 div.dock-icon-container {
