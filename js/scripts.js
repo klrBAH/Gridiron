@@ -3,7 +3,8 @@
 
 $(function () {
   //Hide all of the small icons on the footer
-  $(".lower-dock").find(".lower-icon").hide()
+  $(".lower-dock").find(".lower-icon").hide();
+  //$(".related-icon").hide();
 
   //When scrolling do the page I want the respective imgs to hide on the
   //top-dock and show on the lower-dock
@@ -94,66 +95,82 @@ var dOAnimationHide = function () {
 var gRAnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-Gr").show();
   $(".upper-dock").children().find("#upper-icon-Gr").hide();
+  $("#topic-G1").find(".related-icon").fadeIn();
 }
 var gRAnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-Gr").hide();
   $(".upper-dock").children().find("#upper-icon-Gr").show();
+  $("#topic-G1").find(".related-icon").fadeOut();
 }
 var g1AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G1").show();
   $(".upper-dock").children().find("#upper-icon-G1").hide();
+  $("#topic-G2").find(".related-icon").fadeIn();
 }
 var g1AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G1").hide();
   $(".upper-dock").children().find("#upper-icon-G1").show();
+  $("#topic-G2").find(".related-icon").fadeOut();
 }
 var g2AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G2").show();
   $(".upper-dock").children().find("#upper-icon-G2").hide();
+  $("#topic-G3").find(".related-icon").fadeIn();
 }
 var g2AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G2").hide();
   $(".upper-dock").children().find("#upper-icon-G2").show();
+  $("#topic-G3").find(".related-icon").fadeOut();
 }
 var g3AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G3").show();
   $(".upper-dock").children().find("#upper-icon-G3").hide();
+  $("#topic-G4").find(".related-icon").fadeIn();
 }
 var g3AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G3").hide();
   $(".upper-dock").children().find("#upper-icon-G3").show();
+  $("#topic-G4").find(".related-icon").fadeOut();
 }
 var g4AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G4").show();
   $(".upper-dock").children().find("#upper-icon-G4").hide();
+  $("#topic-G5").find(".related-icon").fadeIn();
 }
 var g4AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G4").hide();
   $(".upper-dock").children().find("#upper-icon-G4").show();
+  $("#topic-G5").find(".related-icon").fadeOut();
 }
 var g5AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G5").show();
   $(".upper-dock").children().find("#upper-icon-G5").hide();
+  $("#topic-G6").find(".related-icon").fadeIn();
 }
 var g5AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G5").hide();
   $(".upper-dock").children().find("#upper-icon-G5").show();
+  $("#topic-G6").find(".related-icon").fadeOut();
 }
 var g6AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G6").show();
   $(".upper-dock").children().find("#upper-icon-G6").hide();
+  $("#topic-G7").find(".related-icon").fadeIn();
 }
 var g6AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G6").hide();
   $(".upper-dock").children().find("#upper-icon-G6").show();
+  $("#topic-G7").find(".related-icon").fadeOut();
 }
 var g7AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G7").show();
   $(".upper-dock").children().find("#upper-icon-G7").hide();
+  $("#topic-Ev").find(".related-icon").fadeIn();
 }
 var g7AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G7").hide();
   $(".upper-dock").children().find("#upper-icon-G7").show();
+  $("#topic-Ev").find(".related-icon").fadeOut();
 }
 var eVAnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-Ev").show();
