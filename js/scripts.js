@@ -4,7 +4,6 @@
 $(function () {
   //Hide all of the small icons on the footer
   $(".lower-dock").find(".lower-icon").hide();
-  //$(".related-icon").hide();
 
   //When scrolling do the page I want the respective imgs to hide on the
   //top-dock and show on the lower-dock
@@ -95,7 +94,7 @@ var dOAnimationHide = function () {
 var gRAnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-Gr").show();
   $(".upper-dock").children().find("#upper-icon-Gr").hide();
-  $("#topic-G1").find(".related-icon").fadeIn();
+  $("#topic-G1").find(".related-icon").fadeIn(750);
 }
 var gRAnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-Gr").hide();
@@ -105,7 +104,7 @@ var gRAnimationHide = function () {
 var g1AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G1").show();
   $(".upper-dock").children().find("#upper-icon-G1").hide();
-  $("#topic-G2").find(".related-icon").fadeIn();
+  $("#topic-G2").find(".related-icon").fadeIn(750);
 }
 var g1AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G1").hide();
@@ -115,7 +114,7 @@ var g1AnimationHide = function () {
 var g2AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G2").show();
   $(".upper-dock").children().find("#upper-icon-G2").hide();
-  $("#topic-G3").find(".related-icon").fadeIn();
+  $("#topic-G3").find(".related-icon").fadeIn(750);
 }
 var g2AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G2").hide();
@@ -125,7 +124,7 @@ var g2AnimationHide = function () {
 var g3AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G3").show();
   $(".upper-dock").children().find("#upper-icon-G3").hide();
-  $("#topic-G4").find(".related-icon").fadeIn();
+  $("#topic-G4").find(".related-icon").fadeIn(750);
 }
 var g3AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G3").hide();
@@ -135,7 +134,7 @@ var g3AnimationHide = function () {
 var g4AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G4").show();
   $(".upper-dock").children().find("#upper-icon-G4").hide();
-  $("#topic-G5").find(".related-icon").fadeIn();
+  $("#topic-G5").find(".related-icon").fadeIn(750);
 }
 var g4AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G4").hide();
@@ -145,7 +144,7 @@ var g4AnimationHide = function () {
 var g5AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G5").show();
   $(".upper-dock").children().find("#upper-icon-G5").hide();
-  $("#topic-G6").find(".related-icon").fadeIn();
+  $("#topic-G6").find(".related-icon").fadeIn(750);
 }
 var g5AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G5").hide();
@@ -155,7 +154,7 @@ var g5AnimationHide = function () {
 var g6AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G6").show();
   $(".upper-dock").children().find("#upper-icon-G6").hide();
-  $("#topic-G7").find(".related-icon").fadeIn();
+  $("#topic-G7").find(".related-icon").fadeIn(750);
 }
 var g6AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G6").hide();
@@ -165,7 +164,7 @@ var g6AnimationHide = function () {
 var g7AnimationShow = function () {
   $(".lower-dock").children().find("#upper-icon-G7").show();
   $(".upper-dock").children().find("#upper-icon-G7").hide();
-  $("#topic-Ev").find(".related-icon").fadeIn();
+  $("#topic-Ev").find(".related-icon").fadeIn(750);
 }
 var g7AnimationHide = function () {
   $(".lower-dock").children().find("#upper-icon-G7").hide();
