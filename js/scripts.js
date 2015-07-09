@@ -4,7 +4,6 @@
 $(function () {
   //Hide all of the small icons on the footer
   $(".lower-dock").find(".lower-icon").hide();
-  //$(".related-icon").hide();
 
   //When scrolling do the page I want the respective imgs to hide on the
   //top-dock and show on the lower-dock
