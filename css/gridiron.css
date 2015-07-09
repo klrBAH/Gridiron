@@ -19,7 +19,7 @@ div.dock {
   position: fixed;
   width: 100%;
   z-index: 99;
-  height: 70px;
+  /*height: 70px;*/
 }
 div.upper-dock {
   top: 50px;
